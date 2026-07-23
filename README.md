@@ -22,7 +22,7 @@ sudo apt install trance-saver-radar
 # or: sudo dnf install trance-saver-radar
 ```
 
-See [idlescreen.github.io/idle-packages](https://idlescreen.github.io/idle-packages/).
+See [idlescreen.github.io/packages](https://idlescreen.github.io/packages/).
 
 ## License
 
