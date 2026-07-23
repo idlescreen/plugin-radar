@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Radar
+Comment=Screensaver effect: radar
+Exec=trance preview radar
+Icon=trance-radar
+Terminal=false
+Categories=Screensaver;
