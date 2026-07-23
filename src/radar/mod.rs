@@ -48,7 +48,7 @@ impl Radar {
         let on_battery = sys.power_status.contains("Battery");
         let accent = query_current_palette().accent;
         Self {
-            rng: LcgRng::new_random(),
+            rng: LcgRng::from_env_or_random(),
             next_enemy_id: 1,
             sweep_angle: 0.0,
             enemies: Vec::new(),
