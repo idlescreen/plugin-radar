@@ -20,7 +20,7 @@ libc = "0.2"
 embed-resource = "2"
 
 [package.metadata.deb]
-name = "saver-radar"
+name = "idle-saver-radar"
 provides = "trance-plugin-radar"
 replaces = "trance-plugin-radar"
 conflicts = "trance-plugin-radar (<< 2.0.0)"
@@ -35,19 +35,19 @@ assets = [
 ]
 
 [package.metadata.generate-rpm]
-name = "saver-radar"
+name = "idle-saver-radar"
 release = "1"
 arch = "x86_64"
 summary = "Retro CRT tactical radar sweep"
 description = "Retro CRT tactical radar sweep"
 license = "Apache-2.0"
 assets = [
-    { source = "target/release/libscreensaver_radar.so", dest = "/usr/libexec/idlescreen/screensavers/libscreensaver_radar.so", mode = "644", user = "root", group = "root" },
+    { source = "target/release/libscreensaver_radar.so", dest = "/usr/libexec/idle/screensavers/libscreensaver_radar.so", mode = "644", user = "root", group = "root" },
     { source = "assets/idlescreen-radar.png", dest = "/usr/share/pixmaps/idlescreen-radar.png", mode = "644", user = "root", group = "root" }
 ]
 
 [package.metadata.generate-rpm.requires]
-idlescreen = "*"
+idle = "*"
 
 [package.metadata.generate-rpm.provides]
 trance-plugin-radar = "*"
