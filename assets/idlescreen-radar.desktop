@@ -2,7 +2,7 @@
 Type=Application
 Name=Radar
 Comment=Screensaver effect: radar
-Exec=trance preview radar
+Exec=idle preview radar
 Icon=trance-radar
 Terminal=false
 Categories=Screensaver;

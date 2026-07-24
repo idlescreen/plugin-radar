@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <screensaver name="trance-radar" _label="Radar">
-  <command arg="trance start radar"/>
+  <command arg="idle start radar"/>
   <_description>
     Retro terminal screensaver effect (radar) from the screensavers collection.
   </_description>
